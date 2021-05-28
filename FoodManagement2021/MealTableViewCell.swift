@@ -26,8 +26,7 @@ class MealTableViewCell: UITableViewCell {
     }
 	
 	override func setEditing(_ editing: Bool, animated: Bool){
-	super.setEditing(editing, animated: animated)
-	mealImage.heightAnchor.constraint(equalToConstant:40).isActive = false
-}
+        super.setEditing(editing, animated: animated)
+    }
 
 }
